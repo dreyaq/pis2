@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="h1hB3Zs5XLrIUSMCfwSc">
+    <mxGraphModel dx="1520" dy="1376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-2" parent="1" style="text;html=1;strokeColor=#23445d;fillColor=#dae8fc;align=left;verticalAlign=top;fontSize=13;fontStyle=1;spacingLeft=8;spacingTop=5;" value="&lt;b&gt;ФПЦХ&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="1450" x="100" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#23445d;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="310" width="1450" x="100" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;arcSize=8;verticalAlign=middle;" value="&lt;b&gt;Подсистема 1&lt;/b&gt;&lt;br&gt;&lt;br&gt;Управление&lt;br&gt;профилями&lt;br&gt;и портфолио" vertex="1">
+          <mxGeometry height="140" width="250" x="130" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;arcSize=8;verticalAlign=middle;" value="&lt;b&gt;Подсистема 2&lt;/b&gt;&lt;br&gt;&lt;br&gt;Управление&lt;br&gt;заказами" vertex="1">
+          <mxGeometry height="140" width="250" x="420" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;arcSize=8;verticalAlign=middle;" value="&lt;b&gt;Подсистема 3&lt;/b&gt;&lt;br&gt;&lt;br&gt;Защита&lt;br&gt;авторских прав&lt;br&gt;(ЦВЗ + реестр)" vertex="1">
+          <mxGeometry height="140" width="250" x="710" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=11;arcSize=8;verticalAlign=middle;" value="&lt;b&gt;Подсистема 4&lt;/b&gt;&lt;br&gt;&lt;br&gt;Платёжный&lt;br&gt;модуль&lt;br&gt;(Эскроу)" vertex="1">
+          <mxGeometry height="140" width="250" x="1000" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;arcSize=8;verticalAlign=middle;" value="&lt;b&gt;Подсистема 5&lt;/b&gt;&lt;br&gt;&lt;br&gt;Администри-&lt;br&gt;рование&lt;br&gt;и аналитика" vertex="1">
+          <mxGeometry height="140" width="230" x="1290" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-9" parent="1" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;fontSize=9;whiteSpace=wrap;rounded=1;arcSize=5;" value="Регистрация художников и заказчиков, KYC-верификация, хранение портфолио в AWS S3, OAuth 2.0" vertex="1">
+          <mxGeometry height="80" width="250" x="130" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-10" parent="1" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=center;verticalAlign=middle;fontSize=9;whiteSpace=wrap;rounded=1;arcSize=5;" value="Публикация заказов, приём откликов (Bid), выбор исполнителя, подписание контракта" vertex="1">
+          <mxGeometry height="80" width="250" x="420" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-11" parent="1" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;fontSize=9;whiteSpace=wrap;rounded=1;arcSize=5;" value="Нанесение ЦВЗ, расчёт SHA-256 хэш-сумм, реестр авторства, выдача сертификатов" vertex="1">
+          <mxGeometry height="80" width="250" x="710" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-12" parent="1" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=center;verticalAlign=middle;fontSize=9;whiteSpace=wrap;rounded=1;arcSize=5;" value="Блокировка средств в эскроу, автовыплата исполнителю, возвраты, комиссия 10-15%" vertex="1">
+          <mxGeometry height="80" width="250" x="1000" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-13" parent="1" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;fontSize=9;whiteSpace=wrap;rounded=1;arcSize=5;" value="Управление пользователями, модерация контента, разрешение споров, аналитика" vertex="1">
+          <mxGeometry height="80" width="230" x="1290" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" value="&lt;b&gt;Внешние интеграции&lt;/b&gt;" vertex="1">
+          <mxGeometry height="25" width="250" x="100" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontColor=#333333;arcSize=10;" value="&lt;b&gt;PostgreSQL&lt;/b&gt;&lt;br&gt;(база данных)" vertex="1">
+          <mxGeometry height="60" width="150" x="130" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontColor=#333333;arcSize=10;" value="&lt;b&gt;AWS S3&lt;/b&gt;&lt;br&gt;(файлы / портфолио)" vertex="1">
+          <mxGeometry height="60" width="160" x="320" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontColor=#333333;arcSize=10;" value="&lt;b&gt;OAuth 2.0 / KYC&lt;/b&gt;&lt;br&gt;(авторизация / верификация)" vertex="1">
+          <mxGeometry height="60" width="190" x="520" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontColor=#333333;arcSize=10;" value="&lt;b&gt;Сервис ЦВЗ&lt;/b&gt;&lt;br&gt;(цифровые водяные знаки)" vertex="1">
+          <mxGeometry height="60" width="200" x="750" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontColor=#333333;arcSize=10;" value="&lt;b&gt;СберБанк / ЮMoney / PayPal&lt;/b&gt;&lt;br&gt;(платёжный шлюз)" vertex="1">
+          <mxGeometry height="60" width="220" x="1000" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontColor=#333333;arcSize=10;" value="&lt;b&gt;Java Spring Boot / REST API&lt;/b&gt;&lt;br&gt;(серверная платформа)" vertex="1">
+          <mxGeometry height="60" width="220" x="1280" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-21" edge="1" parent="1" source="FuSgMnG5yo-APFV-IcY4-4" style="rounded=0;html=1;exitX=0.1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FuSgMnG5yo-APFV-IcY4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-22" edge="1" parent="1" source="FuSgMnG5yo-APFV-IcY4-4" style="rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FuSgMnG5yo-APFV-IcY4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-23" edge="1" parent="1" source="FuSgMnG5yo-APFV-IcY4-4" style="rounded=0;html=1;exitX=0.9;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FuSgMnG5yo-APFV-IcY4-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-24" edge="1" parent="1" source="FuSgMnG5yo-APFV-IcY4-5" style="rounded=0;html=1;exitX=0.1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FuSgMnG5yo-APFV-IcY4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-25" edge="1" parent="1" source="FuSgMnG5yo-APFV-IcY4-6" style="rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FuSgMnG5yo-APFV-IcY4-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-26" edge="1" parent="1" source="FuSgMnG5yo-APFV-IcY4-6" style="rounded=0;html=1;exitX=0.1;exitY=1;exitDx=0;exitDy=0;entryX=0.9;entryY=0;entryDx=0;entryDy=0;" target="FuSgMnG5yo-APFV-IcY4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-27" edge="1" parent="1" source="FuSgMnG5yo-APFV-IcY4-7" style="rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FuSgMnG5yo-APFV-IcY4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-28" edge="1" parent="1" source="FuSgMnG5yo-APFV-IcY4-8" style="rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FuSgMnG5yo-APFV-IcY4-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-29" parent="1" style="text;html=1;strokeColor=#666;fillColor=#fff;align=center;verticalAlign=middle;fontSize=12;rounded=1;arcSize=5;" value="&lt;b&gt;Роли пользователей:&lt;/b&gt;  Цифровой художник  |  Заказчик  |  Модератор  |  Администратор" vertex="1">
+          <mxGeometry height="40" width="1450" x="100" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="FuSgMnG5yo-APFV-IcY4-30" parent="1" style="text;html=1;strokeColor=#333;fillColor=#f5f5f5;align=center;verticalAlign=middle;fontSize=11;rounded=1;arcSize=5;" value="&lt;b&gt;Стек:&lt;/b&gt;  Backend: Java Spring Boot  |  Frontend: JavaScript / HTML / CSS  |  БД: PostgreSQL  |  REST API / JSON  |  Облако: AWS" vertex="1">
+          <mxGeometry height="35" width="1450" x="100" y="615" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
